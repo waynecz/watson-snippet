@@ -1,0 +1,29 @@
+{
+  "Block": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "blk",
+    "body": "{...bem()}",
+    "description": "single Block"
+  },
+
+  "Element": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "ele",
+    "body": ["{...bem('::$1')}"],
+    "description": "Element"
+  },
+
+  "Modifier": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "mod",
+    "body": ["{...bem('::$1', { $$2: $2 })}"],
+    "description": "Element"
+  },
+
+  "When": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "when",
+    "body": ["{...bem('::$1', { $2: $2 })}"],
+    "description": "Element"
+  }
+}

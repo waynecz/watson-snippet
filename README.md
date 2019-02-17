@@ -2,7 +2,7 @@
 
 ![Logo](./images/banner.png)
 
-This extension will add TypeScript snippet for Essential Angular Grid.
+Search `watson` in vscode's store to install this extension
 
 ## React Snippets
 

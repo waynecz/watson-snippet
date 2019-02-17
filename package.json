@@ -1,8 +1,8 @@
 {
   "name": "watson-snippet",
-  "displayName": "Watson-scss Snippet for .scss & .jsx & .tsx file",
-  "description": "Watson-scss Snippet for .scss & .jsx & .tsx file",
-  "version": "1.0.0",
+  "displayName": "Watson's Snippets",
+  "description": "watson-scss Snippet for .scss & .jsx & .tsx file",
+  "version": "1.0.2",
   "publisher": "waynecz",
   "engines": {
     "vscode": "^1.8.0"
@@ -12,6 +12,7 @@
     "email": "451578533@qq.com",
     "url": "https://github.com/waynecz"
   },
+  "homepage": "https://github.com/waynecz/watson-snippet",
   "icon": "images/watson.png",
   "galleryBanner": {
     "color": "#0273D4",
@@ -24,15 +25,21 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascriptreact,typescriptreact,sass,scss",
-        "path": "./snippets/snippets.json"
+        "language": "javascriptreact",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "sass",
+        "path": "./snippets/sass.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/sass.json"
       }
-    ],
-    "activationEvents": [
-      "onLanguage:typescriptreact",
-      "onLanguage:javascriptreact",
-      "onLanguage:scss",
-      "onLanguage:sass"
     ]
   },
   "license": "MIT",
