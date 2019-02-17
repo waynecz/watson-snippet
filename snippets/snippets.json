@@ -1,0 +1,78 @@
+{
+  "Block": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "blk",
+    "body": "{...bem()}",
+    "description": "single Block"
+  },
+
+  "Element": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "ele",
+    "body": ["{...bem('::$1')}"],
+    "description": "Element"
+  },
+
+  "Modifier": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "mod",
+    "body": ["{...bem('::$1', { $$2: $2 })}"],
+    "description": "Element"
+  },
+
+  "When": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "when",
+    "body": ["{...bem('::$1', { $2: $2 })}"],
+    "description": "Element"
+  },
+
+  "CSS Block": {
+    "scope": "scss,sass",
+    "prefix": "blk",
+    "body": ["@include block($1) {", "$2", "}"],
+    "description": "single Block"
+  },
+
+  "CSS Element": {
+    "scope": "scss,sass",
+    "prefix": "ele",
+    "body": ["@include element($1) {", "  $2", "}"],
+    "description": "Element"
+  },
+
+  "CSS Modifier": {
+    "scope": "scss,sass",
+    "prefix": "mod",
+    "body": ["@include modifier($1) {", "$2", "}"],
+    "description": "Element"
+  },
+
+  "CSS When": {
+    "scope": "scss,sass",
+    "prefix": "when",
+    "body": ["@include when($1) {", "$2", "}"],
+    "description": "Element"
+  },
+
+  "CSS Hover": {
+    "scope": "scss,sass",
+    "prefix": "hv",
+    "body": ["&::hover {", "$2", "}"],
+    "description": "Element"
+  },
+
+  "CSS Pseudo": {
+    "scope": "scss,sass",
+    "prefix": "pse",
+    "body": ["@include pseudo($1) {", "$2", "}"],
+    "description": "Element"
+  },
+
+  "CSS With Attribute": {
+    "scope": "scss,sass",
+    "prefix": "attr",
+    "body": ["@include with-attr($1) {", "$2", "}"],
+    "description": "Element"
+  }
+}

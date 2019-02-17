@@ -1,0 +1,50 @@
+{
+  "name": "watson-snippet",
+  "displayName": "Watson-scss Snippet for .scss & .jsx & .tsx file",
+  "description": "Watson-scss Snippet for .scss & .jsx & .tsx file",
+  "version": "1.0.0",
+  "publisher": "waynecz",
+  "engines": {
+    "vscode": "^1.8.0"
+  },
+  "author": {
+    "name": "waynecz",
+    "email": "451578533@qq.com",
+    "url": "https://github.com/waynecz"
+  },
+  "icon": "images/watson.png",
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact,typescriptreact,sass,scss",
+        "path": "./snippets/snippets.json"
+      }
+    ],
+    "activationEvents": [
+      "onLanguage:typescriptreact",
+      "onLanguage:javascriptreact",
+      "onLanguage:scss",
+      "onLanguage:sass"
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynecz/watson-snippet"
+  },
+  "keywords": [
+    "watson",
+    "Sass",
+    "BEM",
+    "scss",
+    "react"
+  ]
+}
