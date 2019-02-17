@@ -1,6 +1,6 @@
 # Watson-scss Snippet for .scss & .jsx & .tsx file
 
-![Logo](./images/extlogo.png)
+![Logo](./images/banner.png)
 
 This extension will add TypeScript snippet for Essential Angular Grid.
 
